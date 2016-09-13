@@ -1,0 +1,24 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: euro-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      name: euro
+      labels:
+        demo: euro
+    spec:
+      containers:
+        - name: web
+          image: cedbossneo/euro-goal:v1
+          readinessProbe:
+            httpGet:
+              path: /
+              port: 80
+            initialDelaySeconds: 10
+            timeoutSeconds: 1
+          ports:
+            - name: www
+              containerPort: 80
