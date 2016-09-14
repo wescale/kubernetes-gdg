@@ -47,26 +47,26 @@ spec:
 Envoyons donc ces fichiers à Kubernetes après avoir préalablement supprimer notre ancien pod :
 
 ```
-../step-00/kubectl delete pod hello-world
-../step-00/kubectl create -f .
+../kubectl delete pod hello-world
+../kubectl create -f .
 ```
 
 Vous pouvez consulter le statut du pod à l'aide de la commande:
 
 ```
-../step-00/kubectl get pods
+../kubectl get pods
 ```
 
 Vous pouvez consulter le statut du service à l'aide de la commande:
 
 ```
-../step-00/kubectl get services
+../kubectl get services
 ```
 
 Lorsque ce dernier est Running, vous pouvez accéder à ce dernier en vous rendant sur n'importe quel ip public de vos machines sur le port 30000 :
 
 ```
-../step-00/kubectl get nodes -o yaml | grep address
+../kubectl get nodes -o yaml | grep address
 # J'accède à une des addresses sur le port 30000 : http://1.2.3.4:30000
 ```
 

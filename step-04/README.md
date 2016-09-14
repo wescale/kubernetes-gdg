@@ -68,11 +68,11 @@ De cette façon, nous avons un seul point d'entrer vers ce service.
 Créons nos ressources :
 
 ```
-../step-00/kubectl create -f .
-../step-00/kubectl get pods
-../step-00/kubectl get deployments
+../kubectl create -f .
+../kubectl get pods
+../kubectl get deployments
 # Attendez une minutes ou deux
-../step-00/kubectl get services
+../kubectl get services
 # Vous devriez désormais voir l'ip externe de votre service.
 # EN y accédant, vous pourrez rentrer votre nom d'équipe et marquer un but !
 ```
@@ -84,5 +84,5 @@ Changez tout d'abord l'image dans votre fichier euro-deployment.yaml en ceci : c
 Ensuite appliquez les changements :
 
 ```
-../step-00/kubectl apply -f euro-deployment.yaml
+../kubectl apply -f euro-deployment.yaml
 ```

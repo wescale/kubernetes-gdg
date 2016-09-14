@@ -36,13 +36,13 @@ Nous remarquons également un paramètre replicas qui correspond au nombre de Po
 Envoyons donc ces fichiers à Kubernetes :
 
 ```
-../step-00/kubectl create -f .
+../kubectl create -f .
 ```
 
 Vous pouvez consulter le statut des pods à l'aide de la commande:
 
 ```
-../step-00/kubectl get pods
+../kubectl get pods
 ```
 
 Vous devez sûrement vous demander pourquoi nous voyons qu'un seul Pod hello-world-controller-... et pas deux.
@@ -52,8 +52,8 @@ Notre ReplicationController, pour savoir combien de Pods sont lancés, utilise a
 Si nous supprimons notre ancien Pod, un nouveaux est créer automatiquement pour maintenir le bon nombre de réplicas :
 
 ```
-../step-00/kubectl delete pod hello-world
-../step-00/kubectl get pods
+../kubectl delete pod hello-world
+../kubectl get pods
 ```
 
 Bien sûr, l'application fonctionne toujours :)
@@ -63,8 +63,8 @@ Vous avez désormais une application hautement disponible.
 Rien ne nous empêche de scaler un peu tout ça :
 
 ```
-../step-00/kubectl scale rc hello-world-controller --replicas=12
-../step-00/kubectl get pods
+../kubectl scale rc hello-world-controller --replicas=12
+../kubectl get pods
 ```
 
 Et Voilà !

@@ -15,12 +15,12 @@ Si votre terminal vous affiche le statut de votre cluster, vous pouvez passer à
 
 ## Clients
 
-linux/amd64: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/linux/amd64/kubectl
-linux/386: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/linux/386/kubectl
-linux/arm: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/linux/arm/kubectl
-linux/arm64: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/linux/arm64/kubectl
-linux/ppc64le: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/linux/ppc64le/kubectl
-OS X/amd64: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/darwin/amd64/kubectl
-OS X/386: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/darwin/386/kubectl
-windows/amd64: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/windows/amd64/kubectl.exe
-windows/386: http://storage.googleapis.com/kubernetes-release/release/v1.2.4/bin/windows/386/kubectl.exe
+linux/amd64: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/linux/amd64/kubectl
+linux/386: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/linux/386/kubectl
+linux/arm: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/linux/arm/kubectl
+linux/arm64: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/linux/arm64/kubectl
+linux/ppc64le: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/linux/ppc64le/kubectl
+OS X/amd64: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/darwin/amd64/kubectl
+OS X/386: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/darwin/386/kubectl
+windows/amd64: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/windows/amd64/kubectl.exe
+windows/386: http://storage.googleapis.com/kubernetes-release/release/v1.3.6/bin/windows/386/kubectl.exe
